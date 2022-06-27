@@ -18,5 +18,5 @@ ds.add_handler(CommandHandler("start",start))
 
 updater.start_webhook("0,0,0,0",PORT,TOKEN,webhook_url="https://myapptele.herokuapp.com/"+TOKEN)
 
-
+updater.idle()
  
